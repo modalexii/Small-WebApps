@@ -1,0 +1,7 @@
+Simple web app to return info on a Twitter user. 
+Most similar sites fail to keep up with Twitter's API changes.
+
+Runs in Google's webapp2
+
+Requires python module "twitter" (not "python-twitter", "tweepy", 
+or any similarly named modules) copied to source directory.

@@ -1,0 +1,405 @@
+# note, stylesheet location is currently set on line 55 of core.py
+# todo: move this to config
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background: #EEE;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #53524F;
+	width: 95%;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+span {
+	display: block;
+}
+
+input[type="hidden"] {
+	display: none;
+	}
+
+input[type="submit"] {
+	cursor:pointer;
+}
+
+#post {
+	width: 70%;
+	margin: 0;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #FFF;
+	border: 1px solid #EEE;
+}
+
+.postheader {
+	border-bottom: 1px solid rgba(0,0,0,.07);
+}
+
+.date {
+	color: #666;
+}
+
+.subtitle {
+	color: #666;
+}
+
+.postbody {
+	padding: 10px 5px 10px 5px;
+	text-align: justify;
+}
+
+#bar {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#bar ul {
+	list-style: none;
+	padding: 0;
+	margin-left: 5px;
+}
+
+#bar li {
+	line-height: 1.5em;
+	border-bottom-width: 1px; 
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+}
+
+#bar a {
+	display: block;
+}
+
+#bar a:hover {
+	color: #222;
+    background-color: #DDD
+}
+
+#bar span {
+	display: block;
+}
+
+.sbposttitle {
+	font-weight: bold;
+}
+
+#bar .linktoall,.linkhome {
+	line-height: 2em;
+
+}
+
+#all {
+	float: left;
+	width: 100%;
+}
+
+#all ul {
+	list-style: none;
+}
+
+#all li {
+	border-width: 0 0 1px 0; 
+	border-style: solid; 
+	border-color: #DDD;
+}
+
+#all form {
+	display: inline;
+	margin: 0;
+}
+
+#all input[submit] {
+	float: left;
+}
+
+#all span {
+	display: inline;
+	padding-right: 5px;
+}
+
+#all a {
+	display: inline-block;
+    width: 70%;
+    line-height: 40px;
+    padding-left: 5px;
+    border: 0px;
+}
+
+#all a:hover { 
+	color: #222;
+    background-color: #DDD
+}
+
+#all .edit { 
+    background: inherit;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+#all .edit:hover{ 
+	color: #333;
+	font-weight: bold;
+    background: #E8D01C;
+}
+
+#all .delete { 
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #DDD;
+}
+
+#all .delete:hover { 
+	color: #EEE;
+	font-weight: bold;
+    background: #990000;
+}
+
+.sbposttitle {
+	font-weight: bold;
+}
+
+#loginform {
+	margin: 10px auto 0 auto;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	background: #CCC;
+}
+
+.authnotice {
+	font-weight: bold;
+	padding-bottom: 10px;
+	display: block;
+}
+
+#adminbar {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #EEE;
+	border: 2px #990000 solid;
+	border-top: 0;
+	padding: 5px 0 5px 0;
+}
+
+#adminbar form, input {
+	display: inline;
+}
+
+#adminbar .new, .all, .edit { 
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #444;
+}
+
+#adminbar .new:hover{ 
+    background: #009900;
+}
+
+#adminbar .all:hover{ 
+    background: #990099;
+}
+
+#adminbar .edit:hover{ 
+    background: #E8D01C;
+}
+
+#adminbar .delete { 
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    margin-right: 15px;
+}
+
+#adminbar .delete:hover { 
+    background: #990000;
+}
+
+#adminbar .logout { 
+    float: right;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #444;
+}
+
+#adminbar .logout:hover{ 
+    background: #009199;
+}
+
+#adminbar .new:hover, .all:hover, .logout:hover, .delete:hover {
+	color: #FFF;
+}
+
+#newpostform {
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	padding-bottom: 60px;
+	background: #FFF;
+}
+
+#newpostform h2 {
+	display: inline;
+}
+
+#newpostform input[type="text"] {
+	width: 50%;	
+}
+
+
+#newpostform .meta {
+	display: block;
+}
+
+
+#newpostform .title .subtitle {
+	float: left;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+
+#newpostform .heading {
+	float: left;
+	display: inline;
+	width: 110px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+
+#newpostform .editwarning {
+	color: #990000;
+	margin-left: 120px;
+}
+
+
+#newpostform .editor {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#newpostform .textarea {
+	display: inline-block;
+}
+
+
+#newpostform .ckeditor {
+	width: 90%;
+	height: 250px;
+	padding: 5px;
+}
+
+#newpostform form {
+	display: inline;
+}
+
+#newpostform .publish { 
+	float: right;
+    background: inherit;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #444;
+}
+
+#newpostform .publish:hover { 
+    background: #009900;
+    color: #EEE;
+	font-weight: bold;
+}
+
+#newpostform .publishcancel { 
+	float: right;
+    background: inherit;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+#newpostform .publishcancel:hover { 
+    background: #990000;
+    color: #EEE;
+	font-weight: bold;
+}
+
+#deleteconfirm {
+	width: 100%;
+	margin: 10px auto 10px auto;
+	padding: 10px 10px 60px 10px;
+	background: #FFF;
+}
+
+#deleteconfirm form {
+	display: inline;
+}
+
+#deleteconfirm .delete { 
+    background: inherit;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+#deleteconfirm .delete:hover{ 
+    background: #990000;
+    color: #EEE;
+	font-weight: bold;
+}
+
+#deleteconfirm .cancel { 
+    background: inherit;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #444;
+}
+
+#deleteconfirm .cancel:hover{ 
+    background: #DDD;
+    color: #333;
+	font-weight: bold;
+}
+
+
+#deleteconfirm h1 {
+	margin-bottom: -15px;
+}
+
+#deleteconfirm .doomedpost {
+	padding: 10px;
+	background: rgba(0,0,0,.03);
+	margin-bottom: 10px;
+}
+
+#deleteconfirm .deleteconfirmtitle {
+	margin-bottom: -15px;
+}
+
+.right {
+	float: right;
+}

@@ -1,0 +1,15 @@
+application: twitterecon
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: false
+
+libraries:
+- name: ssl
+  version: latest
+
+handlers:
+- url: /style
+  static_dir: style
+- url: /.*
+  script: twitterecon.application
